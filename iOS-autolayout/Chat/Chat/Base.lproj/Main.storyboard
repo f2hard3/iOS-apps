@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="elt-AK-IDi">
+                                <rect key="frame" x="0.0" y="59" width="393" height="709"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EHH-xs-feN">
+                                <rect key="frame" x="0.0" y="768" width="393" height="50"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UAZ-TM-bHD">
+                                        <rect key="frame" x="5" y="5" width="319.66666666666669" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Lu6-PR-eO4"/>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPN-aG-Mp9">
+                                        <rect key="frame" x="329.66666666666669" y="0.0" width="63.333333333333314" height="50"/>
+                                        <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Send"/>
+                                        <connections>
+                                            <action selector="sendTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hj9-RK-uW1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="UAZ-TM-bHD" secondAttribute="bottom" constant="5" id="99M-y6-7bx"/>
+                                    <constraint firstItem="DPN-aG-Mp9" firstAttribute="leading" secondItem="UAZ-TM-bHD" secondAttribute="trailing" constant="5" id="PB2-9P-Vde"/>
+                                    <constraint firstItem="UAZ-TM-bHD" firstAttribute="leading" secondItem="EHH-xs-feN" secondAttribute="leading" constant="5" id="XO6-0P-r9B"/>
+                                    <constraint firstItem="DPN-aG-Mp9" firstAttribute="top" secondItem="EHH-xs-feN" secondAttribute="top" id="eHY-yd-OD9"/>
+                                    <constraint firstItem="UAZ-TM-bHD" firstAttribute="top" secondItem="EHH-xs-feN" secondAttribute="top" constant="5" id="fKV-uZ-PbA"/>
+                                    <constraint firstAttribute="trailing" secondItem="DPN-aG-Mp9" secondAttribute="trailing" id="nnG-xg-8P9"/>
+                                    <constraint firstAttribute="bottom" secondItem="DPN-aG-Mp9" secondAttribute="bottom" id="sbn-2u-fWl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="EHH-xs-feN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7vs-Qp-rSV"/>
+                            <constraint firstItem="elt-AK-IDi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CQm-We-Mkf"/>
+                            <constraint firstItem="elt-AK-IDi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TqE-xV-Bw9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EHH-xs-feN" secondAttribute="bottom" id="g1Q-kY-qvs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EHH-xs-feN" secondAttribute="trailing" id="l7i-Te-eFs"/>
+                            <constraint firstItem="EHH-xs-feN" firstAttribute="top" secondItem="elt-AK-IDi" secondAttribute="bottom" id="nTW-Jw-LgB"/>
+                            <constraint firstItem="elt-AK-IDi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qKX-Vw-Jgb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="elt-AK-IDi" id="fcQ-1X-yDh"/>
+                        <outlet property="textView" destination="UAZ-TM-bHD" id="5k5-gf-jqe"/>
+                        <outlet property="textViewBottomConstraint" destination="g1Q-kY-qvs" id="eF8-7D-vp7"/>
+                        <outlet property="textViewHeightConstraint" destination="Lu6-PR-eO4" id="DBv-U3-Ckd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-77.099236641221367" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

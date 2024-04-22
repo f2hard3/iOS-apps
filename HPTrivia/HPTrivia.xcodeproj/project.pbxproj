@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA54CD722BC3A3D800430844 /* HPTriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CD712BC3A3D800430844 /* HPTriviaApp.swift */; };
+		CA54CD742BC3A3D800430844 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CD732BC3A3D800430844 /* ContentView.swift */; };
+		CA54CD762BC3A3D900430844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD752BC3A3D900430844 /* Assets.xcassets */; };
+		CA54CD792BC3A3D900430844 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD782BC3A3D900430844 /* Preview Assets.xcassets */; };
+		CA54CD802BC3A46000430844 /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD7F2BC3A46000430844 /* trivia.json */; };
+		CA54CD8B2BC3A48A00430844 /* deep-in-the-dell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD822BC3A48A00430844 /* deep-in-the-dell.mp3 */; };
+		CA54CD8C2BC3A48A00430844 /* hiding-place-in-the-forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD832BC3A48A00430844 /* hiding-place-in-the-forest.mp3 */; };
+		CA54CD8D2BC3A48A00430844 /* let-the-mystery-unfold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD842BC3A48A00430844 /* let-the-mystery-unfold.mp3 */; };
+		CA54CD8E2BC3A48A00430844 /* magic-in-the-air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD852BC3A48A00430844 /* magic-in-the-air.mp3 */; };
+		CA54CD8F2BC3A48A00430844 /* magic-wand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD862BC3A48A00430844 /* magic-wand.mp3 */; };
+		CA54CD902BC3A48A00430844 /* negative-beeps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD872BC3A48A00430844 /* negative-beeps.mp3 */; };
+		CA54CD912BC3A48A00430844 /* page-flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD882BC3A48A00430844 /* page-flip.mp3 */; };
+		CA54CD922BC3A48A00430844 /* spellcraft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA54CD892BC3A48A00430844 /* spellcraft.mp3 */; };
+		CA54CD9B2BC3CF2E00430844 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CD9A2BC3CF2E00430844 /* Constants.swift */; };
+		CA54CD9D2BC4E00900430844 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CD9C2BC4E00900430844 /* Instructions.swift */; };
+		CA54CDA12BC4E53100430844 /* Button+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDA02BC4E53100430844 /* Button+Ext.swift */; };
+		CA54CDA32BC4F82F00430844 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDA22BC4F82F00430844 /* Settings.swift */; };
+		CA54CDA52BC4F88400430844 /* InfoBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDA42BC4F88400430844 /* InfoBackgroundImage.swift */; };
+		CA54CDA72BC51A5000430844 /* GamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDA62BC51A5000430844 /* GamePlay.swift */; };
+		CA54CDA92BC77F8F00430844 /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDA82BC77F8F00430844 /* SoundEffect.swift */; };
+		CA54CDAC2BC7858B00430844 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDAB2BC7858B00430844 /* Store.swift */; };
+		CA54CDAE2BC7B16E00430844 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDAD2BC7B16E00430844 /* Question.swift */; };
+		CA54CDB02BC7B59E00430844 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDAF2BC7B59E00430844 /* GameViewModel.swift */; };
+		CA54CDB22BC7D33200430844 /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54CDB12BC7D33200430844 /* FileManager+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA54CD6E2BC3A3D800430844 /* HPTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA54CD712BC3A3D800430844 /* HPTriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPTriviaApp.swift; sourceTree = "<group>"; };
+		CA54CD732BC3A3D800430844 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA54CD752BC3A3D900430844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA54CD782BC3A3D900430844 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA54CD7F2BC3A46000430844 /* trivia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trivia.json; sourceTree = "<group>"; };
+		CA54CD822BC3A48A00430844 /* deep-in-the-dell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deep-in-the-dell.mp3"; sourceTree = "<group>"; };
+		CA54CD832BC3A48A00430844 /* hiding-place-in-the-forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hiding-place-in-the-forest.mp3"; sourceTree = "<group>"; };
+		CA54CD842BC3A48A00430844 /* let-the-mystery-unfold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "let-the-mystery-unfold.mp3"; sourceTree = "<group>"; };
+		CA54CD852BC3A48A00430844 /* magic-in-the-air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-in-the-air.mp3"; sourceTree = "<group>"; };
+		CA54CD862BC3A48A00430844 /* magic-wand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-wand.mp3"; sourceTree = "<group>"; };
+		CA54CD872BC3A48A00430844 /* negative-beeps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "negative-beeps.mp3"; sourceTree = "<group>"; };
+		CA54CD882BC3A48A00430844 /* page-flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-flip.mp3"; sourceTree = "<group>"; };
+		CA54CD892BC3A48A00430844 /* spellcraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spellcraft.mp3; sourceTree = "<group>"; };
+		CA54CD9A2BC3CF2E00430844 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA54CD9C2BC4E00900430844 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		CA54CDA02BC4E53100430844 /* Button+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Ext.swift"; sourceTree = "<group>"; };
+		CA54CDA22BC4F82F00430844 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CA54CDA42BC4F88400430844 /* InfoBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBackgroundImage.swift; sourceTree = "<group>"; };
+		CA54CDA62BC51A5000430844 /* GamePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlay.swift; sourceTree = "<group>"; };
+		CA54CDA82BC77F8F00430844 /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		CA54CDAA2BC7841300430844 /* HPConfig.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = HPConfig.storekit; sourceTree = "<group>"; };
+		CA54CDAB2BC7858B00430844 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CA54CDAD2BC7B16E00430844 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CA54CDAF2BC7B59E00430844 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		CA54CDB12BC7D33200430844 /* FileManager+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA54CD6B2BC3A3D800430844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA54CD652BC3A3D800430844 = {
+			isa = PBXGroup;
+			children = (
+				CA54CD702BC3A3D800430844 /* HPTrivia */,
+				CA54CD6F2BC3A3D800430844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA54CD6F2BC3A3D800430844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CD6E2BC3A3D800430844 /* HPTrivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA54CD702BC3A3D800430844 /* HPTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CD8A2BC3A48A00430844 /* Audio */,
+				CA54CD932BC3A4C600430844 /* Model */,
+				CA54CD952BC3A50200430844 /* ModelView */,
+				CA54CD942BC3A4E900430844 /* View */,
+				CA54CD972BC3CEB800430844 /* Util */,
+				CA54CD712BC3A3D800430844 /* HPTriviaApp.swift */,
+				CA54CD7F2BC3A46000430844 /* trivia.json */,
+				CA54CD752BC3A3D900430844 /* Assets.xcassets */,
+				CA54CDAA2BC7841300430844 /* HPConfig.storekit */,
+				CA54CD772BC3A3D900430844 /* Preview Content */,
+			);
+			path = HPTrivia;
+			sourceTree = "<group>";
+		};
+		CA54CD772BC3A3D900430844 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CD782BC3A3D900430844 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA54CD8A2BC3A48A00430844 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CD822BC3A48A00430844 /* deep-in-the-dell.mp3 */,
+				CA54CD832BC3A48A00430844 /* hiding-place-in-the-forest.mp3 */,
+				CA54CD842BC3A48A00430844 /* let-the-mystery-unfold.mp3 */,
+				CA54CD852BC3A48A00430844 /* magic-in-the-air.mp3 */,
+				CA54CD862BC3A48A00430844 /* magic-wand.mp3 */,
+				CA54CD872BC3A48A00430844 /* negative-beeps.mp3 */,
+				CA54CD882BC3A48A00430844 /* page-flip.mp3 */,
+				CA54CD892BC3A48A00430844 /* spellcraft.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CA54CD932BC3A4C600430844 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CDA82BC77F8F00430844 /* SoundEffect.swift */,
+				CA54CDAB2BC7858B00430844 /* Store.swift */,
+				CA54CDAD2BC7B16E00430844 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA54CD942BC3A4E900430844 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CD732BC3A3D800430844 /* ContentView.swift */,
+				CA54CD9C2BC4E00900430844 /* Instructions.swift */,
+				CA54CDA42BC4F88400430844 /* InfoBackgroundImage.swift */,
+				CA54CDA22BC4F82F00430844 /* Settings.swift */,
+				CA54CDA62BC51A5000430844 /* GamePlay.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA54CD952BC3A50200430844 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CDAF2BC7B59E00430844 /* GameViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		CA54CD972BC3CEB800430844 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CA54CD9A2BC3CF2E00430844 /* Constants.swift */,
+				CA54CDA02BC4E53100430844 /* Button+Ext.swift */,
+				CA54CDB12BC7D33200430844 /* FileManager+Ext.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA54CD6D2BC3A3D800430844 /* HPTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA54CD7C2BC3A3D900430844 /* Build configuration list for PBXNativeTarget "HPTrivia" */;
+			buildPhases = (
+				CA54CD6A2BC3A3D800430844 /* Sources */,
+				CA54CD6B2BC3A3D800430844 /* Frameworks */,
+				CA54CD6C2BC3A3D800430844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPTrivia;
+			productName = HPTrivia;
+			productReference = CA54CD6E2BC3A3D800430844 /* HPTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA54CD662BC3A3D800430844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CA54CD6D2BC3A3D800430844 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CA54CD692BC3A3D800430844 /* Build configuration list for PBXProject "HPTrivia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA54CD652BC3A3D800430844;
+			productRefGroup = CA54CD6F2BC3A3D800430844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA54CD6D2BC3A3D800430844 /* HPTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA54CD6C2BC3A3D800430844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA54CD8B2BC3A48A00430844 /* deep-in-the-dell.mp3 in Resources */,
+				CA54CD792BC3A3D900430844 /* Preview Assets.xcassets in Resources */,
+				CA54CD902BC3A48A00430844 /* negative-beeps.mp3 in Resources */,
+				CA54CD8D2BC3A48A00430844 /* let-the-mystery-unfold.mp3 in Resources */,
+				CA54CD922BC3A48A00430844 /* spellcraft.mp3 in Resources */,
+				CA54CD8E2BC3A48A00430844 /* magic-in-the-air.mp3 in Resources */,
+				CA54CD8F2BC3A48A00430844 /* magic-wand.mp3 in Resources */,
+				CA54CD762BC3A3D900430844 /* Assets.xcassets in Resources */,
+				CA54CD8C2BC3A48A00430844 /* hiding-place-in-the-forest.mp3 in Resources */,
+				CA54CD912BC3A48A00430844 /* page-flip.mp3 in Resources */,
+				CA54CD802BC3A46000430844 /* trivia.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA54CD6A2BC3A3D800430844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA54CDB02BC7B59E00430844 /* GameViewModel.swift in Sources */,
+				CA54CD742BC3A3D800430844 /* ContentView.swift in Sources */,
+				CA54CDB22BC7D33200430844 /* FileManager+Ext.swift in Sources */,
+				CA54CDA72BC51A5000430844 /* GamePlay.swift in Sources */,
+				CA54CDA12BC4E53100430844 /* Button+Ext.swift in Sources */,
+				CA54CD722BC3A3D800430844 /* HPTriviaApp.swift in Sources */,
+				CA54CDA52BC4F88400430844 /* InfoBackgroundImage.swift in Sources */,
+				CA54CDAC2BC7858B00430844 /* Store.swift in Sources */,
+				CA54CD9D2BC4E00900430844 /* Instructions.swift in Sources */,
+				CA54CDA32BC4F82F00430844 /* Settings.swift in Sources */,
+				CA54CD9B2BC3CF2E00430844 /* Constants.swift in Sources */,
+				CA54CDAE2BC7B16E00430844 /* Question.swift in Sources */,
+				CA54CDA92BC77F8F00430844 /* SoundEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA54CD7A2BC3A3D900430844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA54CD7B2BC3A3D900430844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA54CD7D2BC3A3D900430844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HPTrivia/Preview Content\"";
+				DEVELOPMENT_TEAM = QK56G4MSM3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakubaku.HPTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA54CD7E2BC3A3D900430844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HPTrivia/Preview Content\"";
+				DEVELOPMENT_TEAM = QK56G4MSM3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakubaku.HPTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA54CD692BC3A3D800430844 /* Build configuration list for PBXProject "HPTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA54CD7A2BC3A3D900430844 /* Debug */,
+				CA54CD7B2BC3A3D900430844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA54CD7C2BC3A3D900430844 /* Build configuration list for PBXNativeTarget "HPTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA54CD7D2BC3A3D900430844 /* Debug */,
+				CA54CD7E2BC3A3D900430844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA54CD662BC3A3D800430844 /* Project object */;
+}
